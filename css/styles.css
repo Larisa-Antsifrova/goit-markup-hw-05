@@ -652,7 +652,7 @@ img {
 }
 
 .portfolio-projects img {
-	width: 368px;
+	width: 100%;
 }
 
 .portfolio-project-information {
