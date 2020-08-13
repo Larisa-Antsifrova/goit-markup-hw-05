@@ -54,8 +54,6 @@ img {
 /* Header */
 /* Site navigation */
 .header {
-	position: relative;
-
 	border-bottom: 1px solid #ececec;
 }
 
@@ -110,7 +108,7 @@ img {
 	content: " ";
 	position: absolute;
 
-	bottom: 0;
+	bottom: -1px;
 	left: 0;
 
 	width: 100%;
