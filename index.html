@@ -58,7 +58,7 @@
 				<div class="overlay hero-flexbox">
 					<div class="container">
 							<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-							<button type="button" class="hero-button">Заказать услугу</button>
+							<button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
 					</div>
 				</div>
 			</section>
@@ -432,5 +432,18 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- Modal -->
+
+		<div class="modal-backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button class="close-button" data-modal-close>
+					<svg class="close-button-icon">
+						<use href="./images/icons/sprite.svg#icon-close-button"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
